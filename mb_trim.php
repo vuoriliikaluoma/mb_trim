@@ -24,8 +24,7 @@ if (extension_loaded('mbstring')) {
 			 * Strip whitespace (or other characters) from the beginning and end of a string.
 			 * 
 			 * @param string $str The string that will be trimmed.
-			 * @param string $charlist Optionally, the stripped characters can also be specified using the charlist parameter. Simply list all characters that you want to be stripped.
-			 * @todo $charlist: With .. you can specify a range of characters.
+			 * @param string $charlist Optionally, the stripped characters can also be specified using the charlist parameter. Simply list all characters that you want to be stripped. With .. you can specify a range of characters.
 			 * @param string $encoding The encoding parameter is the character encoding. If it is omitted, the internal character encoding value will be used.
 			 * @return string The trimmed string.
 			 */
@@ -67,8 +66,7 @@ if (extension_loaded('mbstring')) {
 			 * Strip whitespace (or other characters) from the beginning of a string.
 			 * 
 			 * @param string $str The string that will be trimmed.
-			 * @param string $charlist Optionally, the stripped characters can also be specified using the charlist parameter. Simply list all characters that you want to be stripped.
-			 * @todo $charlist: With .. you can specify a range of characters.
+			 * @param string $charlist Optionally, the stripped characters can also be specified using the charlist parameter. Simply list all characters that you want to be stripped. With .. you can specify a range of characters.
 			 * @param string $encoding The encoding parameter is the character encoding. If it is omitted, the internal character encoding value will be used.
 			 * @return string The trimmed string.
 			 */
@@ -110,8 +108,7 @@ if (extension_loaded('mbstring')) {
 			 * Strip whitespace (or other characters) from the end of a string.
 			 * 
 			 * @param string $str The string that will be trimmed.
-			 * @param string $charlist Optionally, the stripped characters can also be specified using the charlist parameter. Simply list all characters that you want to be stripped.
-			 * @todo $charlist: With .. you can specify a range of characters.
+			 * @param string $charlist Optionally, the stripped characters can also be specified using the charlist parameter. Simply list all characters that you want to be stripped. With .. you can specify a range of characters.
 			 * @param string $encoding The encoding parameter is the character encoding. If it is omitted, the internal character encoding value will be used.
 			 * @return string The trimmed string.
 			 */
